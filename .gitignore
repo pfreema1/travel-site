@@ -27,3 +27,6 @@ nbproject
 .komodotools
 _notes
 dwsync.xml
+
+**/.idea/workspace.xml
+**/.idea/tasks.xml
