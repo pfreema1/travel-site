@@ -10,6 +10,40 @@
         max-width: 976px;
     }
 
+    &--no-padding-until-medium {
+        padding-left: 0;
+        padding-right: 0;
+
+        margin-left: -18px;
+        margin-right: -18px;
+        
+
+        @mixin atMedium {
+            padding-left: 18px;
+            padding-right: 18px;
+
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+    &--no-padding-until-large {
+        padding-left: 0;
+        padding-right: 0;
+
+        margin-left: -18px;
+        margin-right: -18px;
+        
+
+        @mixin atLarge {
+            padding-left: 18px;
+            padding-right: 18px;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
     .wrapper {
         padding-left: 0;
         padding-right: 0;
