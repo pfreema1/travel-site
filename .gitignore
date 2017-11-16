@@ -30,3 +30,11 @@ dwsync.xml
 
 **/.idea/workspace.xml
 **/.idea/tasks.xml
+
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
